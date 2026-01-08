@@ -207,3 +207,54 @@ git rebase --continue
 ## 📄 Licencia
 
 MIT - ver [LICENSE](LICENSE)
+
+
+
+
+
+
+Hola chicos, buenas noches! 🌙
+
+El repositorio del proyecto **Cafetería UPDS** ya está listo en GitHub:
+[https://github.com/AlinaUC/Cafeteria\_UPDS](https://github.com/AlinaUC/Cafeteria_UPDS)
+
+Para empezar a trabajar:
+
+1️⃣ **Clonar el repo**
+
+```bash
+git clone https://github.com/AlinaUC/Cafeteria_UPDS.git
+cd Cafeteria_UPDS
+```
+
+2️⃣ **Cambiar a tu rama** (cada uno tiene la suya)
+
+```bash
+git checkout feature/nombre-de-tu-rama
+```
+
+3️⃣ **Instalar dependencias y configurar**
+
+```bash
+composer install
+npm install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate --seed
+npm run dev
+php artisan serve
+```
+
+4️⃣ **Trabajar en tu rama** y hacer cambios en el código.
+
+5️⃣ **Subir tus cambios al repo**
+
+```bash
+git add .
+git commit -m "Breve descripción de lo que hiciste"
+git push origin nombre-de-tu-rama
+```
+
+6️⃣ Cuando termines una funcionalidad, **abrir un pull request** hacia `main` en GitHub para que revisemos y lo integremos. 🚀
+
+Cualquier duda, me escriben por aquí 😊
