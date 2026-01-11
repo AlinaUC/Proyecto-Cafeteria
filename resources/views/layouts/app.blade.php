@@ -252,7 +252,7 @@
                     <div class="mt-4 text-sm text-gray-500">
                         <p class="font-medium">Equipo de Desarrollo - Metodología SCRUM:</p>
                         <p>🎯 Scrum Master: Luciana Zapana | 👩‍💻 Frontend: Camila Quispe</p>
-                        <p>⚙️ Backend: Josué Escobar & Aarón | 🎨 UX/UI: Carlos Daza | 🗄️ BD: Daher Quinteros</p>
+                        <p>⚙️ Backend: Josué Escobar & Leonardo | </p>
                         <p class="mt-2">
                             Hecho con ❤️ por estudiantes de Ingeniería de Sistemas - Sprint {{ date('W') }}/2024
                         </p>

@@ -127,9 +127,7 @@ git checkout -b feature/nombre-de-su-rama
 
 * Frontend Camila: `feature/frontend-camila`
 * Backend Josué: `feature/backend-josue`
-* UX/Testing Carlos: `feature/ux-testing-carlos`
-* Database Daher: `feature/database-daher`
-* DevOps Aarón: `feature/devops-aaron`
+* Database Leonardo: `feature/devops-leonardo`
 
 ### Subir cambios
 
@@ -191,9 +189,8 @@ git rebase --continue
 **Development Team:**
 
 * Frontend: Camila, Luciana
-* Backend: Josué, Aarón
-* UX/UI & Testing: Carlos
-* Database: Daher
+* Backend: Josué
+* Database: Leonardo
 
 ---
 

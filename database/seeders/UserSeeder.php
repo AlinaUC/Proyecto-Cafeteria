@@ -70,15 +70,6 @@ class UserSeeder extends Seeder
             'status' => 'active',
         ]);
 
-        $carlos = User::create([
-            'name' => 'Carlos Daza Guarachi',
-            'email' => 'carlos@upds.edu.bo',
-            'email_verified_at' => now(),
-            'password' => Hash::make('student2024'),
-            'student_code' => '202100004',
-            'phone' => '70000004',
-            'status' => 'active',
-        ]);
 
         $camilaB = User::create([
             'name' => 'Camila Belén Quispe Aliaga',
@@ -90,19 +81,10 @@ class UserSeeder extends Seeder
             'status' => 'active',
         ]);
 
-        $daher = User::create([
-            'name' => 'Daher Quinteros Arevalo',
-            'email' => 'daher@upds.edu.bo',
-            'email_verified_at' => now(),
-            'password' => Hash::make('student2024'),
-            'student_code' => '202100006',
-            'phone' => '70000006',
-            'status' => 'active',
-        ]);
 
-        $aaron = User::create([
-            'name' => 'Aarón Mamani',
-            'email' => 'aaron@upds.edu.bo',
+        $leonardo = User::create([
+            'name' => 'Leonardo Arana',
+            'email' => 'leonardo@upds.edu.bo',
             'email_verified_at' => now(),
             'password' => Hash::make('student2024'),
             'student_code' => '202100007',
@@ -120,7 +102,7 @@ class UserSeeder extends Seeder
         $cook->assignRole($kitchenRole);
         
         // Asignar rol de estudiante a todos los estudiantes
-        $students = [$luciana, $camila, $josue, $carlos, $camilaB, $daher, $aaron];
+        $students = [$luciana, $camila, $josue, $camilaB, $leonardo];
         foreach ($students as $student) {
             $student->assignRole($studentRole);
         }
